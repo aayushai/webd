@@ -1,0 +1,200 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css variables */
+:root
+{
+    --navbar-height:59px;
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+/* logo and image */
+#logo
+{
+margin: 10px 34px;
+}
+#logo img
+{
+    height: 60px;
+    margin: 3px 6px;
+}
+/* navigation bar : list styling */
+#navbar
+{
+    position: relative;
+    background-color: rgb(36, 13, 13);
+}
+#navbar ul
+{
+    display: flex;
+}
+/* #navbar::before 
+{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+} */
+#navbar ul li
+{
+    color: white;    
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 5px;
+
+}
+#navbar ul li a
+{
+    color: white;
+    display: block;
+    padding: 3px 12px;
+    border-radius: 20px;
+    text-decoration: none;   
+}
+#navbar ul li a:hover
+{
+    color: lightseagreen;
+    background-color: white;  
+}
+.text1
+{
+    margin-right: 15px;
+    color: white;
+}
+.book
+{
+    height: 20px;
+    width: 80px;
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.book:hover
+{
+    background-color: lightseagreen;
+    color: black;
+}
+.block1
+{
+    background-color: lightcoral;
+    margin: 8px 60px  ;
+    height: 60px;
+    /* text-align: center; */
+    border-radius: 5px;
+
+}
+.text2
+{
+    padding: 5px;
+    color: blue;
+}
+.main
+{
+    height: 300px;
+    margin-left: 60px;
+    
+
+    
+}
+.card
+{
+    height: 220px;
+    width: 25%;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10px;
+
+
+    
+    
+    
+
+
+    
+    /* background-color: red; */
+}
+.card img{
+    width: 120%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+.main2
+{
+    margin-top: 240px;
+    background-color: lightseagreen;
+    padding-left: 140px;
+}
+.t1
+{
+    padding-top: 12px;
+    padding-left: 300px;
+    color: blue;
+
+}
+.t2{
+    color: white;
+    padding-left: 240px;
+    padding-top: 10px;
+}
+.p1
+{
+    color: rgb(56, 21, 90);
+    padding-top: 5px;
+    padding-left: 48px;
+    /* height: 80px; */
+    width: 320px;
+    margin-left: 180px;
+}
+.b{
+    height: 35px;
+    width: 125px;
+    border: 2px solid lightseagreen;
+    border-radius: 25px;
+    margin-left: 320px;
+}
+.b:hover
+{
+    background-color: blue;
+    color: black;
+}
+.footer
+{
+    background-color: black;
+}
+.left
+{
+    width: 30%;
+    color: white;
+    height: 180px;
+    width: 150px;
+    margin: 0px 40px ;
+
+}
+.tt2{
+    padding: 10px;
+}
+.links
+{
+    display: flex;
+    padding:20px
+}
+.links img
+{
+    height: 40px;
+    /* width: 80px; */
+    padding: 8px;
+
+}
